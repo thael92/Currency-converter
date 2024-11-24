@@ -1,8 +1,8 @@
 
 // Função para formatar número com pontos e vírgulas, incluindo "R$"
 function formatarNumero(valor) {
-    valor = valor.replace(/\D/g, ""); // Remove todos os caracteres não numéricos
-    valor = valor.replace(/(\d)(\d{2})$/, "$1,$2"); // Adiciona a vírgula antes dos dois últimos dígitos
+    valor = valor.replace(/\D/g, ''); // Remove todos os caracteres não numéricos
+    valor = valor.replace(/(\d)(\d{2})$/, '$1,$2'); // Adiciona a vírgula antes dos dois últimos dígitos
     valor = valor.replace(/(?=(\d{3})+(\D))\B/g, "."); // Adiciona pontos a cada três dígitos
     return "R$ " + valor; // Adiciona o símbolo R$
 }
