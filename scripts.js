@@ -73,7 +73,7 @@ if (currencySelect.value == 'dolar'){
 }
 if (currencySelect.value == 'euro'){
     currencyName.innerHTML= 'Euro'
-    currencyImg.src = "./assets/EURO.png" // Atualiza a imagem para Euro currencyImg.alt = "Imagem do Euro";}
+    currencyImg.src = "./assets/Euro.png" // Atualiza a imagem para Euro currencyImg.alt = "Imagem do Euro";}
 
 }
 if (currencySelect.value == 'bitcoin'){
