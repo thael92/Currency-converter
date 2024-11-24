@@ -54,7 +54,7 @@ function convertValue() {
         currencyValueConvert.innerHTML = new Intl.NumberFormat('en-GB', {
             style: 'currency',
             currency: 'GBP',
-        }).format(inputCurrencyValue / bitcoinToday)
+        }).format(inputCurrencyValue / libraToday)
     }
 
 
